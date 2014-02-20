@@ -1,3 +1,16 @@
+why fork
+=========
+forked from https://github.com/SirVer/ultisnips
+if you set filetype in vimrc for django like this:
+
+    autocmd FileType python set ft=python.django
+    autocmd FileType html set ft=htmldjango.html
+
+yes, it will make snippets work for django py and html file.
+however, taglist will not work for django any more.
+to fix this, just make python and html snippets extends from  django.snippets.
+so the python and html snippets will support django.
+
 UltiSnips
 =========
 
